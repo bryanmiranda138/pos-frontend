@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Si existe la variable de la nube úsala, si no, usa localhost para desarrollo
+
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
 
 const api = axios.create({
