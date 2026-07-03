@@ -1,11 +1,12 @@
 import axios from 'axios';
 
-// Creamos una instancia de axios configurada con la URL de tu backend
+// Si existe la variable de la nube úsala, si no, usa localhost para desarrollo
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+
 const api = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: API_URL
 });
 
-// "Interceptor": Antes de que cualquier petición salga, le inyectamos el token
 api.interceptors.request.use((config) => {
     const token = localStorage.getItem('token');
     if (token) {
