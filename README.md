@@ -4,18 +4,18 @@ Interfaz Web Moderna (*Single Page Application*) diseñada para agilizar la oper
 
 ---
 
-## ✨ Características de la Interfaz
+##  Características de la Interfaz
 
-* 🎨 **Diseño Ergonómico de Pantalla Dividida (*Split-Screen POS*):**
+*  **Diseño Ergonómico de Pantalla Dividida (*Split-Screen POS*):**
   * **Catálogo con Scroll Independiente:** El panel izquierdo permite navegar ágilmente por los productos sin desplazar el resto de la página.
   * **Carrito Fijo Estático:** El panel derecho (*Ticket de Compra*) se mantiene anclado en pantalla (altura `100vh`) garantizando que el total y el botón de cobro estén siempre visibles.
-* 🛡️ **Renderizado Condicional por Roles:**
+*  **Renderizado Condicional por Roles:**
   * La interfaz consume el *JWT* del usuario. Si el usuario logueado tiene rol `vendedor`, oculta automáticamente la pestaña de **Inventario** en el menú lateral.
-* ⚖️ **Arqueo y Verificación Previa al Cierre:**
+*  **Arqueo y Verificación Previa al Cierre:**
   * Modal interactivo que muestra un resumen financiero claro (Fondo Base + Ventas en Efectivo vs. Tarjeta) antes de permitir el cierre definitivo de caja.
-* 📦 **Gestión de Inventario (CRUD Completo):**
+*  **Gestión de Inventario (CRUD Completo):**
   * Tablas limpias y modales emergentes (`Dialog`) para crear, editar y eliminar productos con validación visual en tiempo real.
-* 📜 **Historial Desplegable (*Accordions*):**
+*  **Historial Desplegable (*Accordions*):**
   * Vista de historial que agrupa las ventas por ticket y se expande fluidamente para mostrar el detalle de artículos facturados por el cajero.
 
 ---
@@ -30,17 +30,7 @@ Interfaz Web Moderna (*Single Page Application*) diseñada para agilizar la oper
 
 ---
 
-## 📸 Capturas de Pantalla / Demo
-
-*(💡 Tip para tu portafolio: Sube un par de capturas o un GIF corto de tu pantalla dividida haciendo una venta y reemplaza estos enlaces)*
-
-| Punto de Venta (Split-Screen) | Arqueo de Caja |
-| :---: | :---: |
-| ![POS Demo](https://via.placeholder.com/450x250?text=Agrega+tu+captura+del+POS) | ![Caja Demo](https://via.placeholder.com/450x250?text=Agrega+tu+captura+de+Arqueo) |
-
----
-
-## 🚀 Instalación y Ejecución Local
+##  Instalación y Ejecución Local
 
 1. **Clonar el repositorio:**
    ```bash
